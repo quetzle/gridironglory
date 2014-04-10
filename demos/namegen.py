@@ -6,8 +6,8 @@ def file_len(fname):
             pass
     return i
 
-print file_len('names.txt')
-print file_len('last.txt')
+print 'First names:', file_len('names.txt') + 1
+print 'Last names:', file_len('last.txt') + 1
 
 go = raw_input('')
 while go == '':
