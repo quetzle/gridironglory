@@ -1,0 +1,24 @@
+import random
+
+def file_len(fname):
+    with open(fname) as f:
+        for i, l in enumerate(f):
+            pass
+    return i
+
+print file_len('names.txt')
+print file_len('last.txt')
+
+go = raw_input('')
+while go == '':
+  n = random.randint(0,file_len('names.txt'))
+  l = random.randint(0,file_len('last.txt'))
+  r = open('names.txt')
+  first = r.readlines()
+  a = open('last.txt')
+  last = a.readlines()
+  first[:] = [line.rstrip('\n') for line in first]
+  last[:] = [line.rstrip('\n') for line in last]
+  name = [first[n], last[l]]
+  print(' ').join(name)
+  go = raw_input('')
