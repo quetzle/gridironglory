@@ -1,0 +1,20 @@
+quarterback
+running back
+halfback
+fullback
+wide receiver
+tight end
+slot receiver
+center
+left guard
+right guard
+left tackle
+right tackle
+strong safety
+free safety
+cornerback
+inside linebacker
+outside linebacker
+defensive end
+defensive tackle
+nose tackle
