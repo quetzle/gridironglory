@@ -19,6 +19,5 @@ while go == '':
   teams = e.readlines()
   cities[:] = [line.rstrip('\n') for line in cities]
   teams[:] = [line.rstrip('\n') for line in teams]
-  name = [cities[c], teams[t]]
-  print(' ').join(name)
+  print cities[c],teams[t]
   go = raw_input('')

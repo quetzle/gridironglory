@@ -19,6 +19,5 @@ while go == '':
   last = a.readlines()
   first[:] = [line.rstrip('\n') for line in first]
   last[:] = [line.rstrip('\n') for line in last]
-  name = [first[n], last[l]]
-  print(' ').join(name)
+  print first[n],last[l]
   go = raw_input('')

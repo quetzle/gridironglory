@@ -34,6 +34,5 @@ while go == '':
   cities[:] = [line.rstrip('\n') for line in cities]
   teams[:] = [line.rstrip('\n') for line in teams]
   posi[:] = [line.rstrip('\n') for line in posi]
-  name = [first[n], last[l],'on the',cities[c], teams[t]]
   print first[n], last[l]+',' ,posi[p], 'on the' ,cities[c], teams[t]
   go = raw_input('')
