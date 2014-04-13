@@ -1,8 +1,22 @@
 team1:
 	name: Team1
+	city: City1
+	wins: 12
+		games: 1,2,4,5,6,7,9,11,13,14,15,16
+	losses: 4
+		games: 3,8,10,12
 team2:
 	name: Team2
+	city: City2
+	wins: 7
+	losses: 9
 team3:
 	name: Team3
+	city: City3
+	wins: 10
+	losses: 6
 team4:
 	name: Team4
+	city: City4
+	wins: 6
+	losses: 2
