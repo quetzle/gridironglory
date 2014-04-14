@@ -1,0 +1,16 @@
+IMPORTANCE
+Offense			47.5
+Defense			47.5
+Spec. Teams		5
+---
+Offense:
+Passing			30
+Pass Block		15
+Run				17
+Run Block		12
+Receiving		26
+---
+Defense:
+Passing			40
+Run				35
+Blitz			25
