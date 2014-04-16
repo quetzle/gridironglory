@@ -117,3 +117,10 @@ Riot
 Mustangs
 Arrows
 Scooters
+Sturgeon
+Reds
+Blues
+Greens
+Yellows
+Purples
+Oranges
